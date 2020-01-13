@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var mkdirp = require('../');
-var minimist = require('minimist');
+var minimist = require("../pre-bundled/node_modules/minimist");
 var fs = require('fs');
 
 var argv = minimist(process.argv.slice(2), {
